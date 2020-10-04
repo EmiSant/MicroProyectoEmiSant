@@ -5,7 +5,7 @@
  */
 package emilianosantoandremicroproyecto;
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 /**
  *
@@ -38,7 +38,6 @@ public class EmilianoSantoandreMicroProyecto {
 
     }
 
-   
     public static int cotizarA(int anioIngresado) {
 
         int valorRetorno = 0;
@@ -59,6 +58,7 @@ public class EmilianoSantoandreMicroProyecto {
 
     }
 
+    // funcion boolean para alta gama
     public static boolean altaGama(String alta[], String marcaM) {
 
         for (String nombre : alta) {
@@ -69,4 +69,5 @@ public class EmilianoSantoandreMicroProyecto {
 
         return false;
     }
+
 }
